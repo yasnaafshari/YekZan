@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">YekZan</string>
+    <string name="complete_profile">تکمیل پروفایل سلامت به مشاوره بهتر کمک می‌کند</string>
+    <string name="go_to_profile">برو به پروفایل سلامت</string>
+    <string name="questions_count">شماره برای پرسیدن ۲ سوال اعتبار دارید</string>
+    <string name="field_question">در چه زمینه‌ای سوال دارید؟</string>
+    <string name="register">ثبت</string>
+    <string name="question_hint">متن گفتگو رو اینجا وارد کن</string>
+</resources>
