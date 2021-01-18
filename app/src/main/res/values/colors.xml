@@ -13,4 +13,12 @@
     <color name="light_gray">#f8f8f8</color>
     <color name="very_light_pink">#e4e4e4</color>
     <color name="question">#f8f8f8</color>
+    <color name="brown_gray">#a3a3a3</color>
+    <color name="content">#ffffff</color>
+    <color name="grey">#e4e4e4</color>
+    <color name="slateGray">#58595b</color>
+    <color name="blue">#20a0fe</color>
+    <color name="teal_800">#20c1b3</color>
+    <color name="purple_400">#a11ab3</color>
+    <color name="transparent">#00000000</color>
 </resources>

@@ -6,4 +6,22 @@
     <string name="field_question">در چه زمینه‌ای سوال دارید؟</string>
     <string name="register">ثبت</string>
     <string name="question_hint">متن گفتگو رو اینجا وارد کن</string>
+    <string name="limit">* متن شما حداکثر می‌تواند شامل ۶۰۰ کاراکتر باشد</string>
+    <string name="question_max_count_hint">* متن شما حداکثر میتواند شامل ۶۰۰ کاراکتر باشد</string>
+    <string name="question_type_title">در چه زمینه ای سوال دارید</string>
+    <string name="nabarvari">ناباروری</string>
+    <string name="birth">زایمان</string>
+    <string name="diseases">بیماری و عفونت</string>
+    <string name="child">کودک</string>
+    <string name="before_marriage">پیش از ازدواج</string>
+    <string name="pregnency">اقدام به بارداری</string>
+    <string name="marital">زناشویی</string>
+    <string name="camera">دوربین</string>
+    <string name="choose">انتخاب کن</string>
+    <string name="gallery">گالری</string>
+    <string name="file">فایل</string>
+    <string name="questionFromSpecialist">سوال از متخصص</string>
+    <string name="done">انجام شد</string>
+    <string name="done2">سوال با موفقیت ثبت شد</string>
+    <string name="ok">باشه</string>
 </resources>

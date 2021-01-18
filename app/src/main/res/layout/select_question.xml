@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/questionBottomSheet"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="24dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="0dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/question_type_title"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:id="@+id/closeMenuArrow"
+                android:src="@drawable/ic_baseline_keyboard_arrow_down_24" />
+
+        </LinearLayout>
+
+
+        <RadioGroup
+            android:id="@+id/questionsGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+
+            <RadioButton
+                android:id="@+id/nabarvari"
+                android:textSize="16sp"
+                android:textColor="@color/slateGray"
+                android:buttonTint="@color/grey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nabarvari" />
+
+            <RadioButton
+                android:id="@+id/birth"
+                android:textSize="16sp"
+                android:textColor="@color/slateGray"
+                android:buttonTint="@color/grey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/birth" />
+
+            <RadioButton
+                android:id="@+id/diseases"
+                android:textSize="16sp"
+                android:textColor="@color/slateGray"
+                android:buttonTint="@color/grey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/diseases" />
+
+            <RadioButton
+                android:id="@+id/child"
+                android:textSize="16sp"
+                android:textColor="@color/slateGray"
+                android:buttonTint="@color/grey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/child" />
+            <RadioButton
+                android:id="@+id/before_marriage"
+                android:textSize="16sp"
+                android:textColor="@color/slateGray"
+                android:buttonTint="@color/grey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/before_marriage" />
+
+            <RadioButton
+                android:id="@+id/pregnency"
+                android:textSize="16sp"
+                android:textColor="@color/slateGray"
+                android:buttonTint="@color/grey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pregnency" />
+
+            <RadioButton
+                android:id="@+id/marital"
+                android:textSize="16sp"
+                android:textColor="@color/slateGray"
+                android:buttonTint="@color/grey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/marital" />
+
+
+        </RadioGroup>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
