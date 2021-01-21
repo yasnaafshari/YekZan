@@ -13,7 +13,9 @@ app:cardBackgroundColor="@color/grey"
     <ImageView
         android:layout_gravity="center"
         android:id="@+id/image"
-        android:src="@drawable/ic_baseline_camera_alt_24"
-        android:layout_width="40dp"
-        android:layout_height="40dp"/>
+        android:src="@drawable/ic_camera12"
+        app:tint="@color/white"
+        android:layout_width="36dp"
+
+        android:layout_height="30dp"/>
 </androidx.cardview.widget.CardView>

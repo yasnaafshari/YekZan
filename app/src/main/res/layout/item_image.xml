@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     app:cardCornerRadius="4dp"
     app:cardElevation="0dp"
-    android:layout_margin="4dp"
+    android:layout_margin="2.5dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -26,8 +26,8 @@
 
         <ImageView
             android:id="@+id/selection"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
             android:src="@drawable/ic_baseline_check_circle_24"

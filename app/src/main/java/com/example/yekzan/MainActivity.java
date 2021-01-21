@@ -79,6 +79,10 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
 
+    public MainActivity() {
+       LocaleHelper.init(this);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

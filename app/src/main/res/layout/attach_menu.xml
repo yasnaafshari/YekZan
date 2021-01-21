@@ -34,16 +34,16 @@
                 android:orientation="vertical">
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
                     app:cardBackgroundColor="@color/purple_400"
                     app:cardCornerRadius="100dp">
 
                     <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="24dp"
+                        android:layout_height="19dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/ic_baseline_image_24"
+                        android:src="@drawable/ic_gallery12"
                         app:tint="@color/white" />
 
                 </androidx.cardview.widget.CardView>
@@ -66,16 +66,16 @@
                 android:orientation="vertical">
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
                     app:cardBackgroundColor="@color/teal_800"
                     app:cardCornerRadius="100dp">
 
                     <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="18dp"
+                        android:layout_height="23.3dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/ic_baseline_file_copy_24"
+                        android:src="@drawable/ic_document12"
                         app:tint="@color/white" />
 
                 </androidx.cardview.widget.CardView>
@@ -98,16 +98,16 @@
                 android:orientation="vertical">
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="54dp"
+                    android:layout_height="54dp"
                     app:cardBackgroundColor="@color/blue"
                     app:cardCornerRadius="100dp">
 
                     <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
+                        android:layout_width="24dp"
+                        android:layout_height="19.6dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/ic_baseline_camera_alt_24"
+                        android:src="@drawable/ic_photo_camera12"
                         app:tint="@color/white" />
 
                 </androidx.cardview.widget.CardView>

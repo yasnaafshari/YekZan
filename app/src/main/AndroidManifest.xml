@@ -8,6 +8,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/questionFromSpecialist"
         android:roundIcon="@mipmap/ic_launcher_round"
+        android:name=".App"
         android:supportsRtl="true"
         android:theme="@style/Theme.YekZan">
         <activity android:name=".MainActivity">
@@ -18,5 +19,6 @@
             </intent-filter>
         </activity>
     </application>
+
 
 </manifest>
